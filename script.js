@@ -4,13 +4,17 @@ const color = document.querySelector('.color');
 
 btn.addEventListener('click', function(){
   const randomNumber = getRandomNumber();
-  console.log(randomNumber);
-  if (randomNumer >= 10) {
-    randomNumber = 9;
+  
+  if (randomNumer <= 9) {
+    console.log(randomNumber);
+    document.body.style.backgroundColor = colors[randomNumber];
+    color.textContent = colors[randomNumber];
+  } else {
+    document.body.style.backgroundColor = colors[9];
+    color.textContent = colors[9];
   };
-  document.body.style.backgroundColor = colors[randomNumber];
-  color.textContent = colors[randomNumber];
-})
+  
+});
 
 function getRandomNumber() {
   return Math.floor(Math.random() * (colors.length));
