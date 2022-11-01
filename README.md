@@ -3,6 +3,7 @@ a mini web-app that allows to: <br><br>
   (a) generate a random color from a pre-built color palette,<br>
   (b) generate an absolutely random color,<br>
   (c) generate a palette from 4 random colors<br><br>
+  you can play and test it here: https://sonyavibe.github.io/pet-project-COLOR-GENERATOR/ <br><br>
 here is a walkthrough for each of the options:<br><br>
 ![](https://github.com/sonyavibe/pet-project-COLOR-GENERATOR/blob/main/for_readme/color%20generator%20demo.gif)
 <br><br>
