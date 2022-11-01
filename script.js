@@ -10,5 +10,9 @@ btn.addEventListener('click', function(){
 })
 
 function getRandomNumber() {
-  return Math.floor(Math.random() * (colors.length+1));
+  let result = Math.floor(Math.random() * (colors.length+1));
+  if (result >=10) {
+  result = 9;
+  };
+  return result;
 }
