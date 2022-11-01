@@ -3,7 +3,7 @@ const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
 btn.addEventListener('click', function(){
-  const randomNumber = getRandomNumber();
+  let randomNumber = getRandomNumber();
   
   if (randomNumer <= 9) {
     console.log(randomNumber);
